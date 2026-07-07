@@ -26,7 +26,7 @@ Every Zig workspace comes with a dedicated phone number tied to your AI agent. D
 
 | What you say | What happens |
 |---|---|
-| "Move Acme to Proposal Sent." | CRM deal stage updates immediately. |
+| "Move Acme to Proposal Sent." | Zig surfaces an approval card to confirm the CRM stage change. |
 | "Send the follow-up to Marcus about pricing on Friday." | Zig drafts the message and sends an approval card for your review. |
 | "Call Emily and offer her times from my calendar." | Zig checks your availability and queues a scheduling action for approval. |
 | "What's the status of the Globex deal?" | Zig reads back the current stage, last activity, and next step. |
@@ -38,7 +38,7 @@ Every Zig workspace comes with a dedicated phone number tied to your AI agent. D
   <Tab title="Executed Automatically">
     These actions are low-risk and internal — your agent handles them instantly without requiring a review.
 
-    - **CRM field updates** — stage changes, owner reassignments, custom field edits
+    - **Internal CRM field updates** — owner reassignments, custom field edits, tag updates
     - **Activity logging** — calls, meetings, and notes written to the CRM record
     - **Pipeline queries** — reading back deal status, next steps, or contact details
     - **Internal task creation** — adding reminders or to-dos tied to a deal or contact
@@ -51,6 +51,7 @@ Every Zig workspace comes with a dedicated phone number tied to your AI agent. D
     - **Outbound emails** — any message sent to a prospect or customer
     - **LinkedIn messages** — outreach or follow-ups sent via LinkedIn
     - **Meeting invitations** — calendar invites sent to external contacts
+    - **CRM stage changes** — moving a deal to a new pipeline stage
     - **Scheduled calls** — any action that books time with a contact
     - **Sequences and campaigns** — enrolling a contact in a multi-step outreach flow
 
