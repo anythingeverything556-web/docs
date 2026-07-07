@@ -1,0 +1,69 @@
+---
+title: "Connect Your CRM to Zig for Automatic Updates"
+sidebarTitle: "CRM"
+description: "Link Salesforce or your existing CRM to Zig — deals, contacts, and ICPs sync on day one, and every interaction is logged automatically with 95% accuracy."
+---
+
+Zig connects directly to your CRM so that every meeting, call, and email automatically updates your pipeline — no manual entry required. From the moment you authorize the connection, Zig imports your existing deals, contacts, and ICPs, giving it full context before your first interaction. With 95% CRM accuracy and one-tap approval for suggested updates, your CRM stays clean and current without you ever touching it.
+
+## Supported CRMs
+
+Zig has a native, deeply integrated connection with **Salesforce** (including custom objects and MEDDPICC fields). Additional CRMs are also supported — contact your Zig account team to confirm compatibility with your specific setup.
+
+## How to Connect Your CRM
+
+<Steps>
+  <Step title="Open Integrations Settings">
+    Navigate to **Settings** in the Zig app and select the **Integrations** tab.
+  </Step>
+  <Step title="Select Your CRM">
+    Find your CRM in the list of available integrations and click **Connect**.
+  </Step>
+  <Step title="Authorize the Connection">
+    You'll be redirected to your CRM's authorization page. Sign in and grant Zig the required permissions to read and write deal, contact, and activity data.
+  </Step>
+  <Step title="Zig Imports Your Pipeline">
+    Once authorized, Zig immediately imports your existing deals, contacts, and ICPs. This process typically completes within a few minutes depending on your pipeline size.
+  </Step>
+</Steps>
+
+## What Zig Does With Your CRM
+
+<CardGroup cols={2}>
+  <Card title="Automatic Field Updates" icon="pen-to-square">
+    After every interaction, Zig captures stage progression, close dates, next steps, and activity notes and pushes them to the correct CRM record — no copy-pasting required.
+  </Card>
+  <Card title="MEDDPICC Capture" icon="list-check">
+    Zig listens for MEDDPICC signals across calls and meetings and populates the corresponding fields in your CRM automatically, keeping qualification data current at all times.
+  </Card>
+  <Card title="Voice Command Updates" icon="microphone">
+    Update your CRM with a single spoken command — say something like "Move Acme to Proposal Sent" and Zig handles the rest. No typing, no clicking through fields.
+  </Card>
+  <Card title="Suggested Updates on Review" icon="circle-check">
+    After every interaction, Zig presents a summary of suggested CRM updates. Review and approve them in one tap, or make edits before they're written to the record.
+  </Card>
+</CardGroup>
+
+## Data Flow
+
+<Note>
+  Zig treats your CRM as the system of record. Every update Zig makes is written **to** your CRM — Zig acts on top of your existing system, not instead of it. Your CRM remains the single source of truth for your pipeline data.
+</Note>
+
+<Tip>
+  Connect your CRM before your first meeting so Zig has full context on your deals and contacts from day one. The richer the existing data, the more accurate Zig's suggestions will be right out of the gate.
+</Tip>
+
+## Frequently Asked Questions
+
+<Accordion title="Which CRM fields does Zig update?">
+  Zig updates deal stage, close date, next step, activity notes, and all MEDDPICC fields by default. You can also map any custom fields in your CRM to Zig's output during the integration setup, giving you full control over what gets written and where.
+</Accordion>
+
+<Accordion title="Will Zig overwrite my existing data?">
+  No — Zig suggests updates and waits for your approval before writing anything to the CRM. If you prefer a more hands-off workflow, you can enable auto-sync for specific trusted fields (such as activity notes) so those update automatically without a review step.
+</Accordion>
+
+<Accordion title="How often does Zig sync with my CRM?">
+  Zig syncs after every interaction — including meetings, emails, and calls — so your CRM is updated as soon as the activity completes. In addition, a continuous background sync runs throughout the day to catch any changes made directly in the CRM and keep Zig's context current.
+</Accordion>

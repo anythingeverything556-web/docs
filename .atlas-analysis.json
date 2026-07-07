@@ -1,0 +1,86 @@
+{
+  "projectType": "saas",
+  "projectName": "Zig",
+  "projectDescription": "Zig is an AI sales execution platform that gives every sales rep a team of AI agents to handle research, outreach, meeting prep, follow-ups, CRM sync, and pipeline hygiene — so reps can focus on closing.",
+  "theme": "luma",
+  "primaryColor": "#0c8b69",
+  "lightColor": "#040504",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "how-zig-works"
+            ]
+          },
+          {
+            "group": "AI Agents",
+            "pages": [
+              "agents/research",
+              "agents/outreach",
+              "agents/meetings",
+              "agents/follow-up",
+              "agents/crm-sync",
+              "agents/pipeline"
+            ]
+          },
+          {
+            "group": "Using Zig",
+            "pages": [
+              "using-zig/desktop",
+              "using-zig/mobile",
+              "using-zig/voice-commands",
+              "using-zig/approvals"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/crm",
+              "integrations/email-calendar",
+              "integrations/slack"
+            ]
+          },
+          {
+            "group": "Plans & Billing",
+            "pages": [
+              "plans/overview",
+              "plans/add-ons"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI agent team covering the full revenue motion (Research, Outreach, Meetings, Follow-Up, CRM Sync, Pipeline)",
+    "ZigScribe — live meeting listener that auto-drafts follow-ups and updates CRM",
+    "Lookalike account intelligence — surfaces similar prospects when a deal closes",
+    "ZigMobile — field-first mobile app with badge/business card scanning",
+    "Voice commands — call your Zig agent to update CRM or send follow-ups hands-free",
+    "Outcome-based pricing — pay per execution pool, not per seat",
+    "Compounding revenue intelligence — learns from every call, email, and deal over time",
+    "One-tap approval flows for AI-drafted actions",
+    "AI Agent Inbound Engine — web intent tracking, ad inbound monitoring, lead qualification and routing",
+    "ZigDialer — built-in AI-assisted calling",
+    "ZigLead enrichment — cross-verified contact and company data"
+  ],
+  "publicApiSurface": [
+    "ZigScribe (meeting transcription + post-call execution)",
+    "ZigLead (lead enrichment credits)",
+    "ZigDialer (outbound calling minutes)",
+    "AI Agent Inbound Engine (web intent, ad monitoring, lead routing)",
+    "CRM integration (Salesforce and others)",
+    "Email integration (Gmail, Outlook)",
+    "Slack integration",
+    "Calendar integration",
+    "Voice command interface",
+    "ZigMobile app (iOS/Android)"
+  ]
+}

@@ -1,0 +1,87 @@
+---
+title: "How Zig Approvals Keep You in Control"
+sidebarTitle: "Approvals"
+description: "Zig's approval system ensures complex AI actions — outreach drafts, meeting scheduling, CRM changes — are reviewed and approved by you with a single tap."
+---
+
+Zig is designed to move fast without moving without you. Routine, low-risk actions — logging a call, updating a field, flagging a deal — happen automatically so you don't have to approve every small thing. Anything that reaches outside your organization or commits something on your behalf pauses for your review first. You stay in control of what goes out, without becoming a bottleneck for what happens internally.
+
+## How Approvals Work
+
+<Steps>
+  <Step title="Zig detects an action to take">
+    Your agent identifies something that needs to happen — triggered by a voice command, a Slack message, an inbound lead, or an automated workflow reaching a decision point.
+  </Step>
+  <Step title="Zig evaluates the action type">
+    Your agent checks the action against your approval configuration. Is it an internal update or something external? Routine or above the configured threshold for auto-execution?
+  </Step>
+  <Step title="Zig routes to approval or auto-executes">
+    If the action meets the criteria for auto-execution, it runs immediately and gets logged in your activity feed. If it requires approval, Zig generates an approval card and delivers it to you in the app, your inbox, or Slack.
+  </Step>
+  <Step title="You review, edit, or approve">
+    Open the approval card to see exactly what Zig intends to do. Approve it with one tap, edit the draft inline before it goes out, or dismiss it entirely. Your decision triggers the action — or cancels it.
+  </Step>
+</Steps>
+
+## Where You See Approval Cards
+
+<Tabs>
+  <Tab title="Zig App">
+    Approval cards appear in the **Approvals** tab of the Zig desktop and mobile apps. Cards are sorted by urgency, with time-sensitive actions at the top. Tap any card to expand it, review the full action details, and approve, edit, or dismiss.
+
+    On mobile, pending approvals also appear as push notifications so you can act from your lock screen without opening the app.
+  </Tab>
+  <Tab title="Email">
+    Zig sends approval notification emails to your connected inbox (Gmail or Outlook). Each email includes the full action summary and inline **Approve**, **Edit**, and **Dismiss** buttons — so you can process approvals without ever leaving your inbox.
+
+    Email approvals are processed instantly and confirmed with a follow-up notification once the action executes.
+  </Tab>
+  <Tab title="Slack">
+    If your workspace has the Slack integration enabled, approval cards arrive as structured Slack messages in your configured channel or as a direct message from the Zig bot. Reply with a reaction or use the interactive buttons to approve, edit, or dismiss directly in the thread.
+  </Tab>
+</Tabs>
+
+## What Requires Approval
+
+These action types always surface for your review before Zig executes them:
+
+- **Outbound emails** — any message drafted and sent to a prospect or customer
+- **LinkedIn messages** — outreach, follow-ups, or connection requests sent on your behalf
+- **Meeting invitations** — calendar invites sent to external contacts
+- **Scheduled calls** — any action that books or proposes a time with a contact
+- **CRM stage changes above your configured threshold** — major pipeline movements you've marked as requiring sign-off
+- **Sequence enrollment** — adding a contact to a multi-step outreach campaign
+
+## What Auto-Executes
+
+These routine actions run immediately without requiring your approval:
+
+- **Activity logging** — calls, meetings, and notes written to CRM records
+- **Internal CRM field updates** — owner changes, custom field edits, tag updates
+- **Pipeline flagging** — marking deals as at-risk or in need of attention
+- **Contact enrichment** — pulling updated LinkedIn data, email verification, company intel
+- **Internal task creation** — reminders and to-dos tied to deals or contacts
+
+<Info>
+  You can adjust the boundary between auto-execute and approval for most action types. Go to **Settings → Approvals** to configure which workflows require a human review and which ones your agents handle automatically.
+</Info>
+
+## Every Action Is Reversible
+
+Every action Zig takes — whether auto-executed or approved — is written to your activity feed with a full record of what happened, when, and which agent triggered it. If something goes out that shouldn't have, open the activity feed, find the entry, and reverse it. Outbound emails can be flagged, follow-up actions can be cancelled, and CRM changes can be rolled back — all from the same surface.
+
+Nothing your agents do is invisible, and nothing is permanent by default.
+
+## Frequently Asked Questions
+
+<Accordion title="Can I customize which actions require approval?">
+  Yes. Navigate to **Settings → Approvals** in your Zig workspace to configure approval rules for each action type. You can set individual workflows to always require approval, always auto-execute, or apply a conditional rule based on deal value, contact tier, or sequence type. Changes apply immediately across app, email, Slack, and voice commands.
+</Accordion>
+
+<Accordion title="What if I want to edit an action before approving?">
+  Tap the approval card to expand it, then select **Edit** to modify the draft inline. You can change the message body, update the recipient, adjust the scheduled time, or tweak any other field before approving. Once you're satisfied, tap **Approve** and the updated version goes out.
+</Accordion>
+
+<Accordion title="Does approving an action mean it goes out immediately?">
+  Yes — unless you've scheduled it for a specific time. If the action has a scheduled send time attached (for example, "send Marcus a follow-up on Friday"), approving it queues it for that time rather than sending it instantly. You can see all scheduled actions in the **Upcoming** tab of your activity feed and cancel or reschedule them before they execute.
+</Accordion>
